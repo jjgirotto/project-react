@@ -18,10 +18,10 @@ nav li {
   margin: 10px 0;
 }
 
-nav a {
+.PaginaInicial a {
   display: inline-block;
   padding: 3px 7px;
-  background-color: #56bb74;
+  background-color: #2f7745;
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -29,6 +29,22 @@ nav a {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-nav a:hover {
-  background-color: #4a7256;
+.PaginaInicial a:hover {
+  background-color: #83e4a0;
+}
+
+.Voltar {
+  display: inline-block;
+  margin: 50px;
+  padding: 3px 7px;
+  background-color: #2f7745;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Voltar:hover {
+  background-color: #83e4a0;
 }
