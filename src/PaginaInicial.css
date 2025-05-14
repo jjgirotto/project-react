@@ -1,17 +1,15 @@
 .PaginaInicial {
-  margin-left: 50px;
   font-size: 20px;
+  margin-left: 50px;
 }
 
-h2 {
+.PaginaInicial h2 {
   margin-top: 20px;
-  margin-left: 50px;
   color: rgb(12, 82, 12);
 }
 
 nav ul {
-  margin-left: 10px;
-  list-style: none;
+  list-style: disc;
 }
 
 nav li {
@@ -19,18 +17,9 @@ nav li {
 }
 
 .PaginaInicial a {
-  display: inline-block;
   padding: 3px 7px;
-  background-color: #2f7745;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
+  color: black;
   font-weight: bold;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.PaginaInicial a:hover {
-  background-color: #83e4a0;
 }
 
 .Voltar {
@@ -48,3 +37,4 @@ nav li {
 .Voltar:hover {
   background-color: #83e4a0;
 }
+

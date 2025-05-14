@@ -1,0 +1,138 @@
+.Contador body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#contador {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 330px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.row-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.count-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* images */
+.update {
+    width: 30px;
+    height: 30px;
+    alt: "Ícone para Atualização da contagem";
+}
+
+.plus {
+    width: 30px;
+    height: 30px;
+    alt: "Ícone para aumentar a contagem";
+}
+
+.minus {
+    width: 30px;
+    height: 30px;
+    alt: "Ícone para diminuir a contagem";
+}
+
+.icon {
+    margin-top: 10px;
+    width: 80px;
+    height: 90px;
+}
+
+/* título e reset */
+#total-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+#total-container h3 {
+    margin: 0;
+    flex-grow: 1; 
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#total-container button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0;
+}
+
+/* homens e mulheres */
+#secao-homens-mulheres {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 50px;
+}
+
+#secao-homens-mulheres .row {
+    flex-direction: column;
+    align-items: center;
+}
+
+h5 {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
