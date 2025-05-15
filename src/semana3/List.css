@@ -1,0 +1,62 @@
+.toDoList {
+  max-width: 400px;
+  margin-left: 65px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: left;
+  gap: 0.5rem;
+}
+
+.cabecalho img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.tituloh2 {
+  font-size: 1rem;
+  margin-top: 8px;
+  margin-left: 1px;
+}
+
+.dlista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-left: 50px;
+}
+
+.ditem {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.davatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 2px solid #333;
+}
+
+.ddescricao {
+  font-size: 0.95rem;
+  color: #000;
+}
+
