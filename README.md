@@ -15,4 +15,4 @@
 - Componente: Lista de itens de viagem;
 - Componente: Lista de pessoas;
 - Componente: Receita;
-- Componente: Incremento de xícaras;
+- Componente: Incremento de convidados;
