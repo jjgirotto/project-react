@@ -1,0 +1,30 @@
+.titulo {
+    color: black;
+    font-weight: 500;
+    margin-left: 50px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 2px dashed black;
+    border-radius: 12px;
+    background-color: #e8f5e9;
+    width: 240px;
+}
+
+.custom-button {
+    background-color: #a5d6a7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.custom-button:hover {
+    background-color: #81c784; 
+}

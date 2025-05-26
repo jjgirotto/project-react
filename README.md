@@ -10,9 +10,30 @@
 
 ## 3. Semana 3
 
-- Componente: Galeria de filmes;
-- Componente: Lista de afazeres;
-- Componente: Lista de itens de viagem;
-- Componente: Lista de pessoas;
-- Componente: Receita;
-- Componente: Incremento de convidados;
+### Componentes:
+
+- Galeria de filmes;
+- Lista de afazeres;
+- Lista de itens de viagem;
+- Lista de pessoas;
+- Receita;
+- Incremento de convidados;
+
+## 4. Semana 4
+
+### Componentes:
+
+- Toolbar;
+- Galeria de esculturas;
+- Contador;
+- Formulário 1;
+- Ponto;
+- Formulário 2;
+- Formulário 3;
+- Lista 1;
+- Lista 2;
+- Editor de figuras;
+- Lista de contador;
+- Lista 3;
+- Lista 4;
+- Lista de objetos de arte.
