@@ -1,0 +1,83 @@
+.titulo {
+    color: black;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 16px;
+    background-color: #dfdddd;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-weight: bold;
+    color: black;
+}
+
+form select,
+form textarea {
+    font-size: 1rem;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form textarea {
+    min-height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form button {
+    background-color: #a5d6a7;
+    border: 2px solid black;
+    padding: 14px;
+    font-size: 14px;
+    color: black;
+    border-radius: 8px;
+}
+
+form button:hover {
+    background-color: #81c784; 
+}
+
+p {
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+img {
+    margin-left: 50px;
+    border: 1px solid black;
+    
+}
+
+form input {
+    font-size: 1rem;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: border-color 0.3s ease;
+}
+
+form select:focus,
+form textarea:focus,
+form input:focus {
+    border-color: #5c8f5f;
+    box-shadow: 0 0 5px #5c8f5f;
+}
+

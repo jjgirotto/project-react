@@ -1,0 +1,96 @@
+.titulo {
+    color: black;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.lista {
+    margin-left: 50px;
+    margin-top: 16px;
+    width: 250px;
+    background-color: #dfdddd;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.lista p {
+    margin: 0 0 8px 0;
+    font-weight: bold;
+}
+
+.lista-input-group {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.lista-input {
+    font-size: 1rem;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    flex: 1;
+    margin-left: 50px;
+}
+
+.lista-input:focus {
+    border-color: #5c8f5f;
+    box-shadow: 0 0 5px #5c8f5f;
+    outline: none;
+}
+
+.lista-button {
+    background-color: #a5d6a7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.lista-button-min {
+    background-color: #a5d6a7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 1rem;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.lista-button-reverse {
+    background-color: #a5d6a7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 4px;
+    font-size: 1rem;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+
+.lista-button:hover,
+.lista-button-reverse:hover,
+.lista-button-min:hover {
+    background-color: #81c784;
+}
+
+ul {
+    margin-left: 40px;
+}
+
+li {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
