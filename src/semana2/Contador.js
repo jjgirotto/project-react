@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import './Contador.css';
+import mais from '../images/mais.jpg';
+import menos from '../images/menos.jpg';
+import homem from '../images/homem.png';
+import mulher from '../images/mulher.png';
+import reset from '../images/reset.png';
 
 const Contador = () => {
   const [homens, setHomens] = useState(0);
@@ -25,10 +30,10 @@ const Contador = () => {
       <img src={imgSrc} className="icon" alt={`Ícone de ${label}`} />
       <div className="row-buttons">
         <button onClick={() => alterarContagem(id, 1)}>
-          <img src="/images/mais.jpg" className="plus" alt="Aumentar" />
+          <img src={mais} className="plus" alt="Aumentar" />
         </button>
         <button onClick={() => alterarContagem(id, -1)}>
-          <img src="/images/menos.jpg" className="minus" alt="Diminuir" />
+          <img src={menos} className="minus" alt="Diminuir" />
         </button>
       </div>
       <h5>{label}</h5>
@@ -45,7 +50,7 @@ const Contador = () => {
           <h3>Total</h3>
         </div>
         <button onClick={resetContador}>
-          <img src="/images/reset.png" className="update" alt="Resetar" />
+          <img src={reset} className="update" alt="Resetar" />
         </button>
       </div>
 
@@ -54,8 +59,8 @@ const Contador = () => {
       </div>
 
       <div id="secao-homens-mulheres">
-        <Secao id="homens" imgSrc="/images/homem.png" label="Homens" />
-        <Secao id="mulheres" imgSrc="/images/mulher.png" label="Mulheres" />
+        <Secao id="homens" imgSrc={homem} label="Homens" />
+        <Secao id="mulheres" imgSrc={mulher} label="Mulheres" />
       </div>
     </div>
   );

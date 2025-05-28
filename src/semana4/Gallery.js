@@ -19,10 +19,10 @@ export default function Gallery() {
             <h2 className='titulo'>🗿 Sculpture Gallery</h2>
             <div className='sculpture-box'>
                 <button className="tiny-button" onClick={handleNextClick}>Next</button>
-                <h3>
+                <h3 className='h3h4'>
                     <i>{sculpture.name}</i> by {sculpture.artist}
                 </h3>
-                <h4>({index+1} of {sculptureList.length})</h4>
+                <h4 className='h3h4'>({index+1} of {sculptureList.length})</h4>
                 <button className="tiny-button" onClick={handleMoreClick}>{showMore ? 'Hide' : 'Show'} details</button>
                 {showMore && <p className="description">{sculpture.description}</p>}
                 <img src={sculpture.url} alt={sculpture.alt} className="sculpture-img" />

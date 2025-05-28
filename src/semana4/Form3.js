@@ -61,7 +61,7 @@ export default function Form3() {
                 {person.name}<br />
                 (released in {person.artwork.releaseYear})
             </p>
-            <img
+            <img className='img-form'
                 src={person.artwork.image}
                 alt={person.artwork.title}
             />

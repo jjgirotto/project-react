@@ -1,3 +1,3 @@
 export function getImageUrl(person) {
-    return `/images/filmes/${person.image}.jpg`;
+    return require(`../images/filmes/${person.image}.jpg`);
 }

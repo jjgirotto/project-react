@@ -32,9 +32,9 @@ export default function List3() {
                 <input className='lista-input' value={name} onChange={e => setName(e.target.value)}/>
                 <button className='lista-button' onClick={handleClick}>Insert</button>
             </div>
-            <ul>
+            <ul className='ul-lista'>
                 {artists.map(artist => (
-                    <li key={artist.id}>{artist.name}</li>
+                    <li className='li-lista' key={artist.id}>{artist.name}</li>
                 ))}
             </ul>
         </section>

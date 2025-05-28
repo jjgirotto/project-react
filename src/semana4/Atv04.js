@@ -12,6 +12,8 @@ import List2 from "./List2";
 import List3 from "./List3";
 import List4 from "./List4";
 import CounterList from "./CounterList";
+import ShapeEditor from "./ShapeEditor";
+import BucketList from "./BucketList";
 
 export default function Atv04() {
   return (
@@ -26,9 +28,11 @@ export default function Atv04() {
         <Form3 />
         <List />
         <List2 />
+        <ShapeEditor />
         <CounterList />
         <List3 />
         <List4 />
+        <BucketList />
         <Link to="/" className='Voltar'>Voltar</Link>
     </>
   );

@@ -18,9 +18,9 @@ export default function CounterList() {
     return (
         <section>
             <h2 className='titulo'>➕ Counters list</h2>
-            <ul>
+            <ul className='ul-lista'>
                 {counters.map((counter, i) => (
-                    <li key={i}>
+                    <li className='li-lista' key={i}>
                         {counter}{' '}
                         <button className='lista-button-min' onClick={() => {
                             handleIncrementClick(i);

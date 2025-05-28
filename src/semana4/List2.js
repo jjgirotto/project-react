@@ -14,9 +14,9 @@ export default function List2() {
     return (
         <section>
             <h2 className='titulo'>🎵 Inspiring singers</h2>
-            <ul>
+            <ul className='ul-lista'>
                 {artists.map(artist => (
-                    <li key={artist.id}>
+                    <li className='li-lista' key={artist.id}>
                         {artist.name}{' '}
                         <button className='lista-button-min' onClick={() => {
                             setArtists(

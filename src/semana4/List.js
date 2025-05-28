@@ -21,9 +21,9 @@ export default function List() {
                     )
                 }}>Add</button>
             </div>
-            <ul>
+            <ul className='ul-lista'>
                 {artists.map(artist => (
-                    <li key={artist.id}>{artist.name}</li>
+                    <li className='li-lista' key={artist.id}>{artist.name}</li>
                 ))}
             </ul>
         </section>

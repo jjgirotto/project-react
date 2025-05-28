@@ -20,9 +20,9 @@ export default function List4() {
         <section>
             <h2 className='titulo'>🎵 Inspiring songs</h2>
             <button className='lista-button-reverse' onClick={handleClick}>Reverse</button>
-            <ul>
+            <ul className='ul-lista'>
                 {list.map(artwork => (
-                    <li key={artwork.id}>
+                    <li className='li-lista' key={artwork.id}>
                         {artwork.title}
                     </li>
                 ))}
