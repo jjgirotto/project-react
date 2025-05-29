@@ -19,7 +19,7 @@ form {
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-form label {
+label {
     font-weight: bold;
     color: black;
 }
@@ -63,7 +63,7 @@ p {
     border: 1px solid black;
 }
 
-form input {
+input {
     font-size: 1rem;
     padding: 8px;
     border: 2px solid black;

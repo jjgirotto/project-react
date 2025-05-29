@@ -1,0 +1,67 @@
+.titulo {
+    color: black;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.messenger-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.contact-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px; 
+}
+
+.contact-list button {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid black;
+    background-color: #e0e0e0;
+    font-size: 14px;
+    width: 120px;
+}
+
+.contact-list button:hover {
+    background-color: #c2c1c1;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    min-height: 150px;
+}
+
+.chat textarea {
+    width: 260px;
+    height: 125px;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 9px;
+}
+
+.chat button {
+    margin-top: 1px;
+    width: 100%;
+    padding: 8px 16px;
+    background-color: #a0d8a0;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 14px;
+    align-self: flex-start;
+}
+
+.chat button:hover {
+    background-color: #8ccf8c;
+}
