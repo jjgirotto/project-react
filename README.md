@@ -46,3 +46,7 @@
 - FormTicket;
 - Accordion;
 - Contact's List;
+
+## 6. Semana 6
+
+- Carrinho de compras.
