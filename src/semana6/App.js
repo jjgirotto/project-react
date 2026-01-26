@@ -1,4 +1,3 @@
-// App.js
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import Cart from "./Cart";
